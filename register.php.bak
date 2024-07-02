@@ -1,0 +1,53 @@
+<?php
+
+ 
+    //require("../includes/config.php");
+
+    // ensure user has provided name
+    if (empty($_POST["name"]))
+    {
+        printf("Page not found. Please try again!");
+	exit;
+    }
+
+    /*	
+    // ensure user has provided an email
+    if (empty($_POST["email"]))
+    {
+        printf("Email missing. Please try again!");        
+	exit;
+    }*/
+
+    // ensure user has provided a valid(!) email
+    if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL))
+    {
+        printf("Email is missing or invalid. Please try again!");
+	exit;
+    }
+
+    // ensure user has provided carrier
+    if (empty($_POST["diet"]))
+    {
+        printf("Missing Diet. Please try again!");
+	exit;
+    }
+
+	
+    $file = 'register.txt';
+//echo "$file";
+    $people = $_POST["name"]."\t".$_POST["email"]."\t".$_POST["diet"]."\t".$_POST["school"]."\n";
+//echo "$people";
+    $ret = file_put_contents($file, $people, FILE_APPEND);
+    if ($ret === FALSE)
+        echo "Something didn't work. Please, try again later.";
+    else
+        echo "<h1 style=\"font-size=24pt;font-weight:bold\">Thank you for registering!</h1><br>Click <a href=\"http://www.maths.manchester.ac.uk/~siam/social1511\">here</a> to get back.";
+print_r(error_get_last());
+?>
+
+
+<!--
+<h1 style="font-size=24pt;font-weight:bold">Thank you for registering!</h1><br>
+
+Click <a href="http://www.maths.manchester.ac.uk/~siam/social1511">here</a> to get back.
+-->
