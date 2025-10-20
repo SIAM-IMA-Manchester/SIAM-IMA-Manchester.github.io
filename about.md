@@ -1,7 +1,9 @@
 ---
 layout: default
 title: About
+navigation: 2
 ---
-# About page
 
-This page tells you a little bit about me.
+The SIAM-IMA Student Chapter Manchester was formed in 2009.
+We have recently returned from being dormant.
+Lorem ipsum lorem ipsum.

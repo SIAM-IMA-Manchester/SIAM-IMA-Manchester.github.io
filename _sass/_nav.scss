@@ -1,0 +1,12 @@
+@import "_vars.scss";
+
+.nav_logo {
+	width: 200px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.bg-manchester-purple {
+	--bs-bg-opacity: 1;
+	background-color: $manchester-purple !important;
+}

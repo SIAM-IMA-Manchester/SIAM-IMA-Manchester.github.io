@@ -1,0 +1,40 @@
+---
+layout: default
+title: Committee
+navigation: 3
+---
+
+{% assign committee = site.committee | sort: 'order' %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+		{% for member in committee %}
+			{% assign member_id = "member-" | append: forloop.index0 %}
+			<div class="col">
+			<div id="{{ member_id }}" class="card h-100">
+				<div class="committee-image-container p-2">
+					{% if member.image %}
+						<img src="{{ site.baseurl }}/assets/images/committee/{{ member.image }}" class="committee-image rounded mx-auto d-block"/>
+					{% else %}
+						<img src="{{ site.baseurl }}/assets/images/committee/default.png" class="committee-image rounded mx-auto d-block"/>
+					{% endif %}
+				</div>
+				<div class="card-body">
+					<h3 class="card-title">{{ member.name }}</h3>
+					{% if member.function %}
+						<h4 class="card-text text-secondary">{{ member.function }}</h4>
+					{% endif %}
+					<div>
+						{% if member.email %}
+							<a href="mailto:{{ member.email }}" class="text-manchester-purple" data-toggle="tooltip" title="Send email"><i class="h4 bi-envelope-fill"></i></a>
+						{% endif %}
+						{% if board_member.website %}
+							<a href="{{ member.website }}" class="text-manchester-purple" data-toggle="tooltip" title="View webpage"><i class="h4 bi bi-house-fill"></i></a>
+						{% endif %}
+					</div>
+					<p class="card-text">
+						{{ member.content }}
+					</p>
+				</div>
+			</div>
+			</div>
+		{% endfor %}
+</div>

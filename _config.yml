@@ -1,0 +1,14 @@
+collections_dir: collections
+
+sass:
+  sass_dir: _sass
+
+collections:
+  committee:
+    output: false
+  # board_members:
+  #   output: false
+  # talks:
+  #   output: true
+  # events:
+  #   output: true
