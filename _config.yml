@@ -6,9 +6,7 @@ sass:
 collections:
   committee:
     output: false
-  # board_members:
-  #   output: false
-  # talks:
-  #   output: true
-  # events:
-  #   output: true
+  events:
+    output: true
+  posts:
+    output: true

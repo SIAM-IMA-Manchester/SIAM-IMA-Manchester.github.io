@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Events
+title: News
 navigation: 2
+permalink: /news/
 ---
 <ul>
-  {% for post in site.posts %}
+{% for event in site.events %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
     </li>
-  {% endfor %}
+{% endfor %}
 </ul>
