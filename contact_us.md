@@ -4,10 +4,10 @@ title: Contact Us
 navigation: 4
 permalink: /contact/
 ---
-Please talk to us.
+We are always keen to involve new people with the chapter, so if you want to know more or ask us any questions, please email the chapter secretary at [joshua.rydell@manchester.ac.uk](mailto:joshua.rydell@manchester.ac.uk).
 
-Department of Mathematics
+<!-- Department of Mathematics
 University of Manchester
 Alan Turing Building
 Manchester M13 9PL
-United Kingdom
+United Kingdom -->

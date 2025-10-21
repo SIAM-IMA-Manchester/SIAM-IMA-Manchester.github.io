@@ -7,6 +7,8 @@ permalink: /about/
 
 The SIAM-IMA Student Chapter Manchester was formed in December 2009.
 
+We are proud to have organized the Manchester SIAM-IMA Student Chapter Conference 2023 on 27 April 2023.
+
 ## Previous Committees
 
 ### 2022 - 2023
