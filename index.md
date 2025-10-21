@@ -25,7 +25,7 @@ Pizza and soft drinks will be available from 15:00 onwards.
 
 ## SIAM and IMA
 
-A student membership for [SIAM](https://www.siam.org/) is free of charge for all students of the University of Manchester.
+A student membership for [SIAM](https://www.siam.org/) is free of charge for all PhD students at the University of Manchester.
 If you are not yet a member, you can apply [here](https://www.siam.org/membership/individual-membership/).
 Information on student memberships for the IMA can be found [here](https://ima.org.uk/membership/membership-grades/student/).
 
