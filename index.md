@@ -30,5 +30,5 @@ If you are not yet a member, you can apply [here](https://www.siam.org/membershi
 Information on student memberships for the IMA can be found [here](https://ima.org.uk/membership/membership-grades/student/).
 
 <div style="text-align: center;">
-  <img src="assets/images/46-alan-turing.jpg" alt="The Alan Turing Building, University of Manchester">
+    <img class="mx-auto d-block mw-100" src="assets/images/46-alan-turing.jpg" alt="The Alan Turing Building, University of Manchester">
 </div>
