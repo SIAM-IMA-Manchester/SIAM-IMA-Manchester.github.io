@@ -21,7 +21,7 @@ We are proud to have organized the Manchester SIAM-IMA Student Chapter Conferenc
 
 ### 2021 - 2022
 
-- Michael Connoll, President
+- Michael Connolly, President
 - [Xiaobo Liu](https://xiaobo-liu.github.io/), Vice President
 - Ioanna Nikolopoulou, Secretary
 - [Xinye Chen](https://chenxinye.github.io/xinye_chen/), Treasurer
@@ -29,7 +29,7 @@ We are proud to have organized the Manchester SIAM-IMA Student Chapter Conferenc
 
 ### 2020 - 2021
 
-- Michael Connoll, President
+- Michael Connolly, President
 - [Xinye Chen](https://chenxinye.github.io/xinye_chen/), Vice President
 - Ioanna Nikolopoulou, Secretary
 - [Xiaobo Liu](https://xiaobo-liu.github.io/), Treasurer

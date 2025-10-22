@@ -1,5 +1,5 @@
 ---
-name: Philip
+name: Philip Gamble
 # image: Matthew_Howells.jpg
 function: Vice President
 email: philip.gamble@manchester.ac.uk 

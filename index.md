@@ -18,7 +18,7 @@ The talks are as follows:
 
 - 13:00 - 13:30. Python and the two-language problem - Kaustubh Roy.
 - 13:30 - 14:00. An introduction to numerical linear algebra in Julia - Michael Jones.
-- 14:00 - 14:30. An object orientated approach to the finite element method using oomph-lib - Alexander Philips
+- 14:00 - 14:30. An object orientated approach to the finite element method using oomph-lib - Alexander Phillips
 - 14:30 - 15:00. Colourful fluid dynamics: Behind the scenes - Balwinder Singh
 
 Pizza and soft drinks will be available from 15:00 onwards.
