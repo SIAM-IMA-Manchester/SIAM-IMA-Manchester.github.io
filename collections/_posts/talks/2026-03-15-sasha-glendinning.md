@@ -1,7 +1,7 @@
 ---
 layout: post
 category: seminar
-title: "Optimal consensus control through lying"
+title: "Optimal consensus control of opinion dynamics through lying"
 date: 2026-03-15 14:00:00 +0000
 location: "Alan Turing Building, Frank Adams 1"
 speaker:
