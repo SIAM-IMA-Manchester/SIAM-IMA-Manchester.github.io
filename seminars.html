@@ -1,0 +1,19 @@
+---
+layout: default
+title: Seminars
+navigation: 1
+permalink: /seminars/
+---
+<ul class="list-unstyled">
+{% assign seminars = site.posts | where: "category", "seminar" | sort: "date" | reverse %}
+{% for post in seminars %}
+  <li class="mb-4 pb-4 border-bottom">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="text-muted mb-1">{{ post.date | date: "%B %-d, %Y" }}{% if post.location %} &mdash; {{ post.location }}{% endif %}</p>
+    {% if post.speaker %}
+    <p class="mb-1"><strong>{{ post.speaker.name }}</strong>{% if post.speaker.affiliation %}, {{ post.speaker.affiliation }}{% endif %}</p>
+    {% endif %}
+    {% if post.abstract %}<p class="mb-0">{{ post.abstract | truncatewords: 30 }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-navigation: 2
+navigation: 3
 permalink: /about/
 ---
 

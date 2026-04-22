@@ -1,8 +1,8 @@
 ---
 name: Abraham Reyes
-# image: Matthew_Howells.jpg
+# image:
 function: Treasurer
 email: abrahamrafael.reyesvelazquez@manchester.ac.uk 
-# website: https://profiles.cardiff.ac.uk/research-staff/howellsma
+# website: 
 order: 3
 ---

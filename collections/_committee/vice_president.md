@@ -1,9 +1,9 @@
 ---
 name: Philip Gamble
-# image: Matthew_Howells.jpg
+# image:
 function: Vice President
 email: philip.gamble@manchester.ac.uk 
-# website: https://profiles.cardiff.ac.uk/research-staff/howellsma
+# website:
 order: 2
 ---
 

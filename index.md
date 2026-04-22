@@ -9,19 +9,33 @@ The Chapter was set up in December 2009, and is run by a committee of PhD studen
 
 After a period of inactivity, the student chapter is up and running again!
 
-## Computational Skills Workshop
+## Latest Seminars
 
-We are happy to annouce we are hosting our first event since reviving the student chapter – a workshop on computational skills for PhD students.
-The event is taking place on **22nd October between 1pm and 4pm in the Alan Turing Building, G.107**.
-These talks will be accessible for a broad audience and will include practical techniques for use in a variety of research fields.
-The talks are as follows:
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+{% assign seminars = site.posts | where: "category", "seminar" | sort: "date" | reverse | slice: 0, 3 %}
+{% for post in seminars %}
+  <div class="col">
+    <div class="card h-100">
+      {% if post.speaker.image %}
+      <img src="{{ post.speaker.image | relative_url }}" class="card-img-top" alt="{{ post.speaker.name }}" style="object-fit: cover; height: 200px;">
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a></h5>
+        <p class="card-text text-muted mb-1">{{ post.date | date: "%B %-d, %Y" }}</p>
+        {% if post.speaker %}
+        <p class="card-text mb-1"><strong>{{ post.speaker.name }}</strong>{% if post.speaker.affiliation %}, {{ post.speaker.affiliation }}{% endif %}</p>
+        {% endif %}
+        {% if post.abstract %}<p class="card-text">{{ post.abstract | truncatewords: 20 }}</p>{% endif %}
+      </div>
+      <div class="card-footer">
+        <a href="{{ post.url | relative_url }}" class="btn btn-sm bg-manchester-purple text-white">Read more</a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
 
-- 13:00 - 13:30. Python and the two-language problem - Kaustubh Roy.
-- 13:30 - 14:00. An introduction to numerical linear algebra in Julia - Michael Jones.
-- 14:00 - 14:30. An object orientated approach to the finite element method using oomph-lib - Alexander Phillips
-- 14:30 - 15:00. Colourful fluid dynamics: Behind the scenes - Balwinder Singh
-
-Pizza and soft drinks will be available from 15:00 onwards.
+<a href="{{ '/seminars/' | relative_url }}" class="btn bg-manchester-purple text-white">View all seminars</a>
 
 ## SIAM and IMA
 

@@ -1,8 +1,8 @@
 ---
-name: Kaustabh Roy
-# image: Matthew_Howells.jpg
+name: Kaustubh Roy
+# image:
 function: President
 email: kaustubh.roy@manchester.ac.uk
-# website: https://profiles.cardiff.ac.uk/research-staff/howellsma
+# website:
 order: 1
 ---

@@ -1,10 +1,10 @@
 - name: Home
   link: /
-- name: Events
-  link: /events.html
-- name: About
-  link: /about.md
+- name: Seminars
+  link: /seminars.html
 - name: Committee
   link: /committee.html
+- name: About
+  link: /about.md
 - name: Contact Us
   link: /contact_us.md

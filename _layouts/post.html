@@ -1,7 +1,39 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-{{ content }}
+<div class="talk-post">
+
+  <!-- <h1>{{ page.title }}</h1> -->
+
+  <div class="talk-meta">
+    <p class="talk-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+    {% if page.location %}<p class="talk-location">{{ page.location }}</p>{% endif %}
+  </div>
+
+  {% if page.speaker %}
+  <div class="talk-speaker">
+    {% if page.speaker.image %}
+    <div class="text-center">
+      <img src="{{ page.speaker.image }}" alt="{{ page.speaker.name }}" class="speaker-img img-fluid">
+    </div>
+{% endif %}
+    <p><strong>{{ page.speaker.name }}</strong>{% if page.speaker.affiliation %}, {{ page.speaker.affiliation }}{% endif %}</p>
+  </div>
+  {% endif %}
+
+  {% if page.abstract %}
+  <div class="talk-abstract">
+    <h3>Abstract</h3>
+    <p>{{ page.abstract }}</p>
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  <div class="talk-links">
+    {% if page.slides %}<a href="{{ page.slides }}">Slides</a>{% endif %}
+    {% if page.recording %}<a href="{{ page.recording }}">Recording</a>{% endif %}
+  </div>
+
+</div>
